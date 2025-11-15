@@ -8,6 +8,7 @@ def serialise_many(docs)->list:
     return [serialise_one(doc) for doc in docs]
 
 def display_message():
+    """doc str for display"""
     print("Something")
 
 def print_msg():
