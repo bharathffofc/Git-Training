@@ -3,4 +3,5 @@ def serialise_one(doc)->dict:
     return doc
 
 def serialise_many(docs)->list:
+    """function to serialise list of documents"""
     return [serialise_one(doc) for doc in docs]
