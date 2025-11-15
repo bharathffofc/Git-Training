@@ -60,3 +60,13 @@ class JSONNote(BaseNote):
             json.dump(content,f,indent=4)
         return f"File removed at {full_title}"
 
+    assert result["detail"] == [
+        {
+            "error_details": "Permission not present",
+            "loc": ["login", "get_check_roles"],
+            "msg": "Permission 'Stations:read' is required to access the endpoint",
+            "title": "PERMISSION ERROR",
+            "type": "validation_studio_error.semantic",
+        }
+    ]
+
