@@ -10,6 +10,9 @@ def serialise_many(docs)->list:
 def display_message():
     print("Something")
 
+def print_msg():
+    print("hello world")
+
 def show_message():
     """doc string for show"""
     print("show message")
