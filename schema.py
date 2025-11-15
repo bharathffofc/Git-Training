@@ -11,5 +11,5 @@ def display_message():
     print("Something")
 
 def show_message():
-    """added doc string for show"""
+    """doc string for show"""
     print("show message")
