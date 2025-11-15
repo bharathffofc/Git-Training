@@ -4,3 +4,6 @@ def serialise_one(doc)->dict:
 
 def serialise_many(docs)->list:
     return [serialise_one(doc) for doc in docs]
+
+def display_message():
+    print("Something")
